@@ -1,0 +1,247 @@
+.icon-food {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fd4426;
+  margin-right: 10px;
+}
+.par-nav {
+  font-size: 14px;
+}
+
+.h3-nav {
+  font-size: 24px;
+}
+.star-ic {
+  color: #fdc700;
+}
+.rate {
+  background-color: #fff;
+  border-radius: 99999px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+.defeculty-span {
+  padding: 0px 5px;
+  border-radius: 9999999px;
+  background-color: #dbfce7;
+  margin-right: 10px;
+  color: #2d9b5a;
+}
+.country-span {
+  padding: 0px 5px;
+  border-radius: 9999999px;
+  background-color: #dbeafe;
+  margin-right: 10px;
+  color: #1648e6;
+}
+.meal-name {
+  font-size: 36px;
+  font-weight: 700;
+}
+.icon-right {
+  width: 50px;
+  height: 50px;
+  background-color: #ffedd4;
+  color: #e55c00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.icon-right:hover {
+  background-color: #ffd6a7;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #f54900;
+  background-color: transparent;
+  border-bottom: 2px #f54900 solid;
+  border-radius: 0 !important ;
+}
+.nav-link {
+  color: #4a5565;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: black;
+}
+.number-list {
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #ff6900;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-ingredients {
+  background-color: #fff9eb;
+  padding: 24px;
+  border-radius: 10px;
+}
+.hr-body {
+  border: #4a5565 solid 0.5px;
+  opacity: 0.19;
+}
+.number-list-2 {
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: #ff6900;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.list-instruction {
+  max-height: 400px;
+}
+.list-instruction {
+  overflow-y: scroll;
+}
+.span-fire {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #ffedd4;
+  color: #f54900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fitnes {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 16px;
+}
+.sodium {
+  background-color: #fce7f3;
+  color: #e60076;
+}
+.wheat-i {
+  background-color: #fef9c2;
+  color: #d08700;
+}
+.fat {
+  background-color: #ffe2e2;
+  color: #e7000b;
+}
+.fiber-i {
+  background-color: #dbfce7;
+  color: #00a63e;
+}
+.protein {
+  background-color: #dbeafe;
+  color: #155dfc;
+}
+.check-area {
+  background-color: #fffbeb;
+  border-left: #ffb900 5px solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+.span-chek {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e17100;
+  color: white;
+  font-size: 8px;
+  border-radius: 50%;
+}
+.img-div {
+  min-height: 100vh;
+  background-color: #fff;
+  border-radius: 30px;
+  overflow: hidden;
+}
+body {
+  background-color: #fffbea;
+}
+.btn-primary {
+  --bs-btn-border-color: #f44600;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ed2400;
+  --bs-btn-hover-border-color: #f44600;
+}
+.btn:hover {
+}
+.my-button {
+  background-image: linear-gradient(to right, #ff6900, #fb2e36) !important;
+  padding: 10px 20px;
+  color: white;
+  border: 0;
+  transition: all 0.3s;
+}
+button:hover {
+  transform: translate(0, 10deg);
+}
+.my-meal {
+  overflow-y: scroll;
+}
+.section-meal {
+  padding-block: 50px;
+}
+.img-meal {
+  height: 100vh;
+}
+.hover-anav a {
+  transition: all 0.3s;
+}
+.container-meal {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.my-meal::-webkit-scrollbar {
+  width: 8px;
+  height: 70%;
+}
+
+.my-meal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.my-meal::-webkit-scrollbar-thumb {
+  background: #ffedd4;
+  border-radius: 10px;
+  height: 50%;
+}
+
+.my-meal::-webkit-scrollbar-thumb:hover {
+  background: #e17100;
+}
+.list-instruction::-webkit-scrollbar {
+  width: 5px;
+}
+.list-instruction::-webkit-scrollbar-thumb {
+  background: #ffedd4;
+  border-radius: 10px;
+}
+.list-instruction::-webkit-scrollbar-thumb:hover {
+  background: #e17100;
+  border-radius: 10px;
+}
+.list-instruction::-webkit-scrollbar-button {
+  color: #e17100;
+}
+.message-prob {
+  border-color: #e7000b;
+}
+.message-prob h6 {
+  color: #9f0712;
+}
+.message-prob p {
+  color: #e7000b;
+}
+.navbar .nav-link:hover {
+  --bs-navbar-hover-color: #f54900 !important;
+}
